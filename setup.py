@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-from videos import get_version
+from countries import get_version
 setup(
     name = "django-countries",
     packages = find_packages(),
