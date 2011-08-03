@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 from countries import get_version
 setup(
-    name = "django-countries",
+    name = "incuna-countries",
     packages = find_packages(),
     include_package_data=True,
     version = get_version(),
