@@ -1,0 +1,5 @@
+recursive-include */templates *.html
+recursive-include */fixtures *.json
+recursive-include */static *
+recursive-include */media *
+
