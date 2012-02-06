@@ -10,7 +10,7 @@ setup(
     version = get_version(),
     description = 'Countries model and fixtures.',
     author = 'Incuna Ltd',
-    author_email = 'admin@incuna.com',
+    author_email = 'dev@incuna.com',
     url = 'http://incuna.com/',
 )
 
