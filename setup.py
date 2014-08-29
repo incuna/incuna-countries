@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 from countries import get_version
 
+
 version = '1.0.3'
 
 
