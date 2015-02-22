@@ -19,6 +19,6 @@ You can now ForeignKey the ```Country``` object from your models.
 
 ### Fixtures
 
-Load the default list of contries into your database with loaddata:
+Load the default list of countries into your database with loaddata:
    
     python manage.py loaddata default_countries
