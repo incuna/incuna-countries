@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.test import TestCase
 from incuna_test_utils.utils import field_names
 
@@ -20,3 +21,8 @@ class TestCountry(TestCase):
         name = 'Japan'
         country = CountryFactory.build(name=name)
         self.assertEqual(str(country), name)
+
+    def test_unicode(self):
+        name = u'日本'
+        country = CountryFactory.build(name=name)
+        self.assertEqual(unicode(country), name)
