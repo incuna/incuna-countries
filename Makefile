@@ -10,4 +10,3 @@ release:
 test:
 	@coverage run test_project/manage.py test
 	@flake8 .
-	@DJANGO_SETTINGS_MODULE=test_project.settings coverage report
