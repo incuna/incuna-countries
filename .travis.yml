@@ -2,5 +2,12 @@ sudo: false
 language: python
 python:
     - 3.5
+install:
+   - pip install $DJANGO
+env:
+  matrix:
+    - DJANGO='django>=1.7,<1.8'
+    - DJANGO='django>=1.8,<1.9'
+    - DJANGO='--upgrade --pre django'
 script:
     - make test
