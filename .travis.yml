@@ -1,0 +1,15 @@
+sudo: false
+language: python
+python:
+    - 2.7
+    - 3.4
+env:
+  matrix:
+    - DJANGO='django~=1.7.0'
+    - DJANGO='django~=1.8.0'
+    - DJANGO='--upgrade --pre django'
+install:
+  - pip install -r requirements.txt
+  - pip install $DJANGO
+script:
+    - make test

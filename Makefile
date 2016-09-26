@@ -6,3 +6,7 @@ help:
 
 release:
 	python setup.py register sdist upload
+
+test:
+	@coverage run test_project/manage.py test
+	@flake8 .
