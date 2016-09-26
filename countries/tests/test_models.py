@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.test import TestCase
+from django.utils.six import text_type
 from incuna_test_utils.utils import field_names
 
 from .factories import CountryFactory
@@ -25,4 +26,4 @@ class TestCountry(TestCase):
     def test_unicode(self):
         name = u'日本'
         country = CountryFactory.build(name=name)
-        self.assertEqual(unicode(country), name)
+        self.assertEqual(text_type(country), name)
