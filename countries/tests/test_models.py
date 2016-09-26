@@ -18,12 +18,7 @@ class TestCountry(TestCase):
 
         self.assertEqual(fields, expected)
 
-    def test_str(self):
-        name = 'Japan'
-        country = CountryFactory.build(name=name)
-        self.assertEqual(text_type(country), name)
-
-    def test_unicode(self):
+    def test_text_type(self):
         name = u'日本'
         country = CountryFactory.build(name=name)
         self.assertEqual(text_type(country), name)
