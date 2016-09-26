@@ -18,5 +18,5 @@ class TestCountry(TestCase):
 
     def test_str(self):
         name = 'Japan'
-        user = CountryFactory.build(name=name)
-        self.assertEqual(str(user), name)
+        country = CountryFactory.build(name=name)
+        self.assertEqual(str(country), name)
