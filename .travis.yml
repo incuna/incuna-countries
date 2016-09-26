@@ -7,9 +7,11 @@ env:
   matrix:
     - DJANGO='django~=1.7.0'
     - DJANGO='django~=1.8.0'
-    - DJANGO='--upgrade --pre django'
+    - DJANGO='--upgrade --pre django'    
+notifications:
+    email: false
 install:
-  - pip install -r requirements.txt
-  - pip install $DJANGO
+    - pip install -r requirements.txt
+    - pip install $DJANGO
 script:
     - make test
