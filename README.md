@@ -1,4 +1,4 @@
-# Incuna Countries v1.0.3
+# Incuna Countries
 
 Add countries support to your application
 
