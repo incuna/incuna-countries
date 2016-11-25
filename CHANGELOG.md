@@ -1,3 +1,8 @@
+1.1.1
+=====
+
+* Use a more neutral name for Taiwan.
+
 1.1.0
 =====
 
