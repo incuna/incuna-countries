@@ -215,7 +215,7 @@
 {"pk": 212, "model": "countries.country", "fields": {"code": "SE", "name": "Sweden"}},
 {"pk": 213, "model": "countries.country", "fields": {"code": "CH", "name": "Switzerland"}},
 {"pk": 214, "model": "countries.country", "fields": {"code": "SY", "name": "Syrian Arab Republic"}},
-{"pk": 215, "model": "countries.country", "fields": {"code": "TW", "name": "Taiwan, Province of China"}},
+{"pk": 215, "model": "countries.country", "fields": {"code": "TW", "name": "Taiwan"}},
 {"pk": 216, "model": "countries.country", "fields": {"code": "TJ", "name": "Tajikistan"}},
 {"pk": 217, "model": "countries.country", "fields": {"code": "TZ", "name": "Tanzania, United Republic of"}},
 {"pk": 218, "model": "countries.country", "fields": {"code": "TH", "name": "Thailand"}},
